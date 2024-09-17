@@ -9,7 +9,6 @@ import { useState } from 'react';
 
 export const LoginSignUp = () => {
     const [action, setAction] = useState('Sign Up');
-console.log(123);
   return (
     <div className="container">
         <div className='header'>
